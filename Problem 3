@@ -1,0 +1,16 @@
+l = []
+
+x = 0
+
+while x < 100:
+
+    y = int(input("Enter a number: "))
+
+    l.append(y)
+
+    x = sum(l)
+
+
+
+    
+print(x)
