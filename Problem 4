@@ -1,0 +1,12 @@
+counter = 0
+
+tens = []
+
+while counter < 51:
+    if counter // 10:
+        tens.append (counter)
+    counter = counter + 1
+
+print(counter)
+
+print(tens)
